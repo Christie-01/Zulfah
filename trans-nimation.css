@@ -1,0 +1,84 @@
+  body {
+  height: 100vh;
+  background-image: linear-gradient(bisque , brown);
+  background-repeat: no-repeat;
+}
+
+span {
+  display: flex;
+  position: relative;
+}
+
+#div-1 {
+    width: 300px;
+    height: 300px;
+    border-top:5px solid saddlebrown ;
+    border-right:5px solid purple ;
+    border-bottom:5px solid green ;
+    border-left:5px solid orangered ;
+    background-color: cadetblue;
+    border-radius: 50%;
+    
+}
+
+
+@keyframes rotate {
+   from {
+    transform: translate(0) rotate(0);
+    background-color: cadetblue;
+    /* opacity: 0; */
+   }
+
+   to {
+    transform: translateX(300px) rotate(360deg);
+    background-color: darkblue;
+   }
+
+  }
+
+  #div-1 {
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: linear; 
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+
+
+
+  #div-2 {
+    width: 300px;
+    height: 300px;
+    border-top:5px solid saddlebrown ;
+    border-right:5px solid purple ;
+    border-bottom:5px solid green ;
+    border-left:5px solid orangered ;
+    background-color: cadetblue;
+    border-radius: 50%;
+    position: absolute;
+    left: 600px;
+    
+}
+
+@keyframes rotate-2 {
+  from {
+   transform: translate(0) rotate(0);
+   background-color: cadetblue;
+   /* opacity: 0; */
+  }
+
+  to {
+   transform: translateX(500px) rotate(360deg);
+   background-color: darkblue;
+  }
+
+ }
+
+#div-2 {
+  animation-name: rotate-2;
+  animation-delay: 3s;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}

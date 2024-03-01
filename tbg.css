@@ -1,0 +1,106 @@
+body {
+    height: 100vh;
+    width: 100vw ;
+    background-color: #000;
+}
+
+#flexbox {
+    background-color: #000;
+    background-image: url(./image/black\ phone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: center;
+    margin: 40px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color:#fff;
+}
+
+a:hover {
+    color: red;
+}
+
+
+button {
+    background-color: red;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #000;
+}
+#p1 {
+    color: red;
+    font-size: 20;
+}
+
+#p2 {
+    color: #fff;
+}
+
+#p3 {
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+#div4 {
+    display: flex;
+    
+}
+
+#div4 p {
+    margin-top: 2px;
+}
+
+#div4 img {
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

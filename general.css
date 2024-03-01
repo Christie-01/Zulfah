@@ -1,0 +1,119 @@
+* {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    height: 200vh;
+    margin: 0px;
+    position: relative;
+    background-color: rgb(19, 9, 73);
+    font-family: gesans-regular;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 95vw;
+    height: 100px;
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    background-color:#12233b;
+    position: fixed;
+    font-size: 60px;
+    margin-top:1px;
+}
+
+div.nav a {
+    font-size: 16px;
+    gap: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-around;
+    justify-content: space-between;
+    font-family: gesans, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav div:nth-child(1) {
+    color: transparent;
+    border-radius: 50%;
+    margin: 12px 0px 0px 32px;
+}
+.nav_image {
+    width: 90px;
+    color: #fff;
+    border-radius: 50%;
+    
+
+}
+
+ nav a:hover {
+    background-color: #0962bb;
+    border-radius: 50px;
+}
+
+#section-1 {
+    background-image: url(./image/background_monday_lunch.jpg);
+    width: 100vw;
+    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding-top: 300px;
+    padding-left: 50px;
+}
+
+header h1 {
+    font-size: 70px;
+}
+header a {
+    background-color: #0962bb;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h2 {
+    padding-left: 80px;
+    background-color: transparent;
+    font-size: 50px;
+}
+h2 {
+    margin-bottom: 40px;
+}
+
+#section-2 {
+    padding-left: 80px;
+}
+#section-2 div {
+    width: 30%;
+    height: 160px;
+    background-color: #0962bb;
+}
+#section-2 div img {
+    width: 100%;
+}
+#section2 h4 {
+    
+}
+
+
+
+
+/* media query for mobile device */
+
+@media screen {
+    
+}

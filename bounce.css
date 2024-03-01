@@ -1,0 +1,123 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(blue , pink , purple);
+    background-repeat: no-repeat;
+  }
+
+span {
+    /* display: flex; */
+    position: relative;
+  }
+
+#ball-1 {
+    width: 200px;
+    height: 200px;
+    border-top:5px solid saddlebrown ;
+    border-right:5px solid purple ;
+    border-bottom:5px solid green ;
+    border-left:5px solid orangered ;
+    background-color: cadetblue;
+    border-radius: 50%;
+}
+
+#ball-2 {
+    width: 200px;
+    height: 200px;
+    border-top:5px solid saddlebrown ;
+    border-right:5px solid purple ;
+    border-bottom:5px solid green ;
+    border-left:5px solid orangered ;
+    background-color:blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    left: 500px;
+    top: 1px;
+}
+
+#ball-3 {
+    width: 200px;
+    height: 200px;
+    border-top:5px solid saddlebrown ;
+    border-right:5px solid purple ;
+    border-bottom:5px solid green ;
+    border-left:5px solid orangered ;
+    background-color:crimson;
+    border-radius: 50%;
+    position: absolute;
+    left: 1040px;
+    top: 1px;
+}
+
+
+#ball-4 {
+    width: 200px;
+    height: 200px;
+    border-top:5px solid saddlebrown ;
+    border-right:5px solid purple ;
+    border-bottom:5px solid green ;
+    border-left:5px solid orangered ;
+    background-color:darkgreen;
+    border-radius: 50%;
+    position: absolute;
+    left: 1040px;
+    top: 390px;
+    left: 240px;
+}
+
+#ball-5 {
+    width: 200px;
+    height: 200px;
+    border-top:5px solid saddlebrown ;
+    border-right:5px solid purple ;
+    border-bottom:5px solid green ;
+    border-left:5px solid orangered ;
+    background-color:gold;
+    border-radius: 50%;
+    position: absolute;
+    left: 760px;
+    top: 390px;
+}
+
+@keyframes bounce-down {
+    from {
+     transform: translate(0) rotate(0);
+     /* background-color: cadetblue; */
+     /* opacity: 0; */
+    }
+  
+    to {
+     transform: translateY(500px) rotate(360deg);
+     /* background-color: darkblue; */
+    }
+  
+   }
+  
+#ball-1 , #ball-2 , #ball-3{
+    animation-name: bounce-down;
+    animation-duration: 0.6s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce-up {
+    from {
+     transform: translate(0) rotate(0);
+     /* background-color: cadetblue; */
+     /* opacity: 0; */
+    }
+  
+    to {
+     transform: translateY(-500px) rotate(360deg);
+     /* background-color: darkblue; */
+    }
+  
+   }
+  
+#ball-4 , #ball-5 {
+    animation-name: bounce-up;
+    animation-duration: 0.6s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
